@@ -1,0 +1,25 @@
+2025-01-01 23:03:06,460 - utils.daily_logging - INFO - this is a message from logger
+2025-01-01 23:03:06,460 - utils.daily_logging - ERROR - ZeroDivisionError
+Traceback (most recent call last):
+  File "/Users/hubinbin/codes/github/com_script/python/logger/test.py", line 9, in my_function
+    return 1 / 0
+ZeroDivisionError: division by zero
+2025-01-01 23:05:39,905 - utils.daily_logging - INFO - this is a message from logger
+2025-01-01 23:05:39,905 - utils.daily_logging - ERROR - ZeroDivisionError
+Traceback (most recent call last):
+  File "/Users/hubinbin/codes/github/com_script/python/logger/test.py", line 10, in my_function
+    return x / 0
+ZeroDivisionError: division by zero
+2025-01-01 23:17:32,141 - __main__ - INFO - this is a message from logger
+2025-01-01 23:17:32,141 - __main__ - ERROR - ZeroDivisionError
+Traceback (most recent call last):
+  File "/Users/hubinbin/codes/github/com_script/python/logger/test.py", line 14, in my_function
+    return x / 0
+ZeroDivisionError: division by zero
+2025-01-01 23:20:04,185 - __main__ - INFO - This is a message from main.py
+2025-01-01 23:20:04,185 - test - INFO - this is a message from logger
+2025-01-01 23:20:04,185 - test - ERROR - ZeroDivisionError
+Traceback (most recent call last):
+  File "/Users/hubinbin/codes/github/com_script/python/logger/test.py", line 14, in my_function
+    return x / 0
+ZeroDivisionError: division by zero
